@@ -1,0 +1,142 @@
+body{
+    overflow-x: hidden;
+}
+.footer{
+    background-color: grey;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.text-dark{
+    margin-top: 40px;
+
+}
+.ftlogo{
+    margin-top: 40px;
+
+}
+
+.ftlogo{
+width: 50%;
+height: 10vh;
+}
+li a{
+    padding-left: 10px;
+    font-size: 15px;
+   color: black;
+}
+.mb-3 mb-md-0 text-body-secondary{
+    color: black;
+}
+.col-md-12 {
+    width: 100%;
+}
+.section-subheading {
+    color: #646e7a;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.75em;
+    margin-bottom: 0;
+    margin-top: 12px;
+    padding: 0 42px;
+}
+#habt{
+font-size: 24px;
+font-family: serif;
+}
+
+.pabt{
+font-size: 18px;
+justify-content: center;
+}
+.counter {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+}
+#abt1{
+justify-content: center
+}
+@media(max-width:1075px){
+    img#imgab {
+        margin-left: -35px;
+    }
+    footer.row.row-cols-1.row-cols-sm-2.row-cols-md-5.py-5.border-top{
+        margin-right: 0px;
+    margin-left: 0px;
+    }
+    #habt {
+        font-size: 21px;
+    }
+    div#base-header1 {
+        margin-left: -75px;
+    }
+}
+
+@media(max-width:1000px){
+    img#imgab {
+        margin-left: -50px;
+    }
+    img.attachment-full.size-full.wp-image-3240 {
+        margin-left: -15px;
+    }
+    div#base-header2 {
+        margin-left: 18px;
+    }
+}
+@media(max-width:980px){
+    img#imgab {
+        img#imgab {
+            margin-left: -70px;
+        }
+    }
+
+    div#base-header1 {
+        margin-left: -169px;
+        width: 480px;
+    }
+    div#base-header1 {
+        margin-left: -169px;
+        width: 480px;
+    }
+    img#imgab {
+        margin-left: -50px;
+        width: 130%;
+    }
+    img.attachment-full.size-full.wp-image-3240 {
+        margin-left: -50px;
+        width: 130%;
+    }
+    div#base-header2 {
+        margin-left: 18px;
+        width: 420px;
+    }
+    div#abt1 {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        /* margin-left: 32px; */
+    }
+    div#base-header1 {
+        margin-left: 110px;
+    }
+    img#imgab {
+        margin-left: 155px;
+    }
+    img.attachment-full.size-full.wp-image-3240 {
+        margin-left: 156px;
+    }
+    div#base-header2 {
+        margin-left: 18px;
+        width: 480px;
+        margin-left: 120px;
+    }
+}
+
+@media(max-width:320px){
+    footer.row.row-cols-1.row-cols-sm-2.row-cols-md-5.py-5.border-top {
+        text-align: center;
+    }
+}
+
+

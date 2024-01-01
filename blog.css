@@ -1,0 +1,36 @@
+body{
+    overflow-x: hidden;
+}
+
+
+.ftlogo{
+    width: 50%;
+    height: 10vh;
+    margin-top: 40px;
+    }
+    .blog{
+        text-align: center;
+    }
+    li a{
+        color: black;
+    }
+    
+    .contft{
+        text-align: center;
+    }
+    .col  h5{
+        color: white;
+    }
+    .footer{
+        background-color: grey;
+        color: grey;
+        width: 90%;
+       text-align: center;
+       margin: 0px auto;
+    }
+    .row {
+        
+           margin: 0px auto;
+           margin-right: auto;
+           margin-left: auto;
+    }

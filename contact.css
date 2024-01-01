@@ -1,0 +1,116 @@
+body {
+    overflow-x: hidden;
+}
+
+.footer{
+    background-color: grey;
+    width: 100%;
+}
+
+.text-dark{
+    margin-top: 40px;
+
+}
+
+.cont {
+    font-size: 20px;
+    font-family: PT Sans;
+    text-align: center;
+    margin-top: 15px;
+}
+.ftlogo{
+    width: 50%;
+    height: 10vh;
+    margin-top: 40px;
+    }
+   
+    li a{
+        color: black;
+    }
+    
+    .contft{
+        text-align: center;
+    }
+    .text-center button {
+        background: var(--color-primary);
+        border: 1px;
+        padding: 10px 30px;
+        color:gray;
+        transition: 0.4s;
+        cursor: pointer;
+    }
+    .formcon{
+        width: 90%;
+        justify-content: center;
+    margin: 0px auto;
+    margin-top: 20px;
+    }
+
+   .map{
+    display: flex;
+    overflow-x: hidden !important;
+    flex-direction: column;
+    width: 100%;
+   }
+
+   iframe{
+    margin: 0px auto;
+   }
+
+   /* .section-contact-block .contact-title {
+    font-size: 24px;
+    border-bottom: 3px solid #eeeeee;
+    color: #5c5c5c;
+    padding-bottom: 15px;
+    position: relative;
+} */
+@media(max-width:1075px){
+    .row{
+  
+        margin-right: 0px;
+    }
+    footer.row.row-cols-1.row-cols-sm-2.row-cols-md-5.py-5.border-top{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+@media(max-width:950px){
+    ul.nav.flex-column{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:850px){
+    ul.nav.flex-column{
+        font-size: 12px;
+    }
+    ul.nav.flex-column{
+        font-size: 11px;
+    }
+}  
+   
+@media(max-width:750px){
+    footer.row.row-cols-1.row-cols-sm-2.row-cols-md-5.py-5.border-top {
+        text-align: center;
+        justify-content: center;
+        
+}
+ul.nav.flex-column{
+    font-size: 18px;
+}
+ul.nav.flex-column{
+    font-size: 18px;
+}
+#row1{
+    margin-left: none;
+}
+}
+
+@media(max-width:425px){
+    ul.contact-info {
+        margin-left: -55px;
+    }
+    .justify-content-end {
+        margin-left: -167px;
+    }
+}

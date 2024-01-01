@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body {
+    background-color: black;
+  } 
+.footer{
+    background-color: grey;
+    width: 100%;
+    color: white;
+    text-align: center;
+} 
+
+ .text-dark{
+    margin-top: 40px;
+
+} 
+li a{
+    padding-left: 10px;
+    font-size: 15px;
+   color: black;
+}
+/* .ftlogo{
+    margin-top: 40px;
+
+}
+
+.ftlogo{
+width: 50%;
+height: 10vh;
+} */
+.mb-3 mb-md-0 text-body-secondary{
+    color: black;
+}

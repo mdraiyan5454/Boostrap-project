@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.footer{
+    background-color: grey;
+    width: 100%;
+    
+}
+body{
+    overflow-x: hidden;
+}
+.text-dark{
+    margin-top: 40px;
+
+}
+.ftlogo{
+    margin-top: 40px;
+
+}
+
+.ftlogo{
+width: 50%;
+height: 10vh;
+}
+li a{
+    padding-left: 10px;
+    font-size: 15px;
+   color: black;
+}
+.mb-3 mb-md-0 text-body-secondary{
+    color: black;
+}
+/* .ser1{
+    width: 10%;
+    justify-content: center;
+    margin: 0px auto;
+    margin-top: 20px;
+} */
+/* .about-section .about-details h3 .number-years {
+    color: #f69323;
+    font-size: 40px;
+   
+}
+
+.about-section .about-details .quote-block .phone-number {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    background: #f69323;
+    border: 2px solid #f69323;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-right: 20px;
+    padding: 15px 30px;
+}
+.about-section .about-details .quote-block .available-time {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    border: 2px solid #f69323;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 15px 30px;
+    cursor: pointer;
+} */
+
+
+
+.about-section .about-details h3 .number-years {
+    color: #f69323;
+    font-size: 40px;
+   
+}
+
+.about-section .about-details .quote-block .phone-number {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    background: #f69323;
+    border: 2px solid #f69323;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-right: 20px;
+    padding: 15px 30px;
+}
+.about-section .about-details .quote-block .available-time {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    border: 2px solid #f69323;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+.imgsr{
+margin-left: 80px;
+margin-top: 40px;
+}
+#serdetail{
+    margin-top: 40px;
+}
+#p22{
+font-size: 16px;
+align-items: center;
+justify-content: center;
+width: 70%;
+}
+
+@media(max-width:950px){
+    h3 {
+        font-size: 23px;
+    }
+    .about-section .about-details .quote-block .phone-number {
+        font-size: 16px;
+    padding: 8px 10px;
+    }
+    .about-section .about-details .quote-block .available-time {
+        font-size: 16px;
+    padding: 8px 10px;
+}
+}
+
+@media(max-width:850px){
+    p#p22 {
+        font-size: 14px;
+    }
+    .about-section .about-details h3 .number-years {
+        font-size: 28px;
+    }
+}
+
+@media(max-width:750px){
+    .imgsr {
+        margin-left: 125px;
+        margin-top: 40px;
+    }
+    div#serdetail {
+        margin-left: 200px;
+    }
+    .service_img {
+        text-align: center;
+    }
+    .service_para {
+   text-align: center;
+    }
+    footer.row.row-cols-1.row-cols-sm-2.row-cols-md-5.py-5.border-top {
+        text-align: center;
+    }
+}
+ 
+@media(max-width:700px){
+    .imgsr {
+        margin-left: 106px;
+        margin-top: 40px;
+    }
+}
+
+@media(max-width:650px){
+    .imgsr {
+        margin-left: 85px;
+        width: 75%;
+    }
+    div#serdetail {
+        margin-left: 155px;
+    }
+}
+
+@media(max-width:600px){
+    div#serdetail {
+        margin-left: 145px;
+    }
+    .imgsr {
+        margin-left: 75px;
+    }
+}
+
+@media(max-width:550px){
+    div#serdetail {
+        margin-left: 110px;
+    }
+}
+@media(max-width:500px){
+    div#serdetail {
+        margin-left: 95px;
+    }
+}
+
+@media(max-width:450px){
+    
+.imgsr {
+    margin-left: 58px;
+}
+div#serdetail {
+    margin-left: 65px;
+}
+p#p22 {
+    font-size: 14px;
+    width: 85%;
+}
+}
+
+@media(max-width:400px){
+    div#serdetail {
+        margin-left: 35px;
+    }
+}
+@media(max-width:400px){
+    h3 {
+        font-size: 20px;
+    }
+    img.attachment-full.size-full.wp-image-3250 {
+        width: 80%;
+        height: 45vh;
+}
+img.attachment-full.size-full.wp-image-3249{
+    width: 80%;
+    height: 45vh;
+}
+img.attachment-full.size-full.wp-image-3248{
+    width: 80%;
+    height: 45vh;
+}
+}
+@media(max-width:400px){
+    .imgsr {
+        margin-left: 40px;
+    }
+    h3.\33 33 {
+        font-size: 18px;
+    }
+    .about-section .about-details h3 .number-years {
+        font-size: 23px;
+    }
+    div#quote-block {
+        text-align: center;
+    }
+    .about-section .about-details .quote-block .phone-number {
+        font-size: 13px;
+        padding: 6px 8px;
+    }
+    .about-section .about-details .quote-block .available-time  {
+        font-size: 13px;
+        padding: 6px 8px;
+    }
+}
+

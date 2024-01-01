@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body {
+    background-color: black;
+  } 
+  /* html {
+    scroll-behavior: smooth;
+  } */
+  .about{
+    font-size: 20px;
+    font-family: PT Sans;
+    text-align: center;
+    margin-top: 15px;
+}
+.mb-2, .my-2 {
+    margin-bottom: 0.5rem!important;
+    padding-left: 18px;
+}
+.highlight-block2 {
+    background: #f2f2f2;
+    border: 1px solid #dfdfdf;
+    margin-bottom: 30px;
+    padding: 6px;
+    transition: all .2s ease-out;
+}
+
+ .our22 {
+    font-size: 200px;
+    font-family: PT Sans;
+    text-align: center;
+    margin-top: 15px;  
+}
+.ppp{
+    text-align: center;
+    width: auto;
+}
+
+.blog{
+    font-size: 20px;
+    font-family: PT Sans;
+    text-align: center;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    padding-top: 13px;
+} 
+
+.gall{
+    font-size: 20px;
+    font-family: PT Sans;
+    text-align: center;
+    margin-top: 15px;
+}
+.cont{
+    font-size: 20px;
+    font-family: PT Sans;
+    text-align: center;
+    margin-top: 15px;
+}
+.symbol1{
+color: gray;
+}
+li a{
+    padding-left: 10px;
+    font-size: 15px;
+   color: black;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 420px;
+    padding: 15px;
+    margin: auto;
+}
+.col  h5{
+    color: white;
+}
+
+.footer{
+    background-color: grey;
+    color: grey;
+    width: 100%;
+   text-align: center;
+   margin: 0px auto;
+}
+.ftlogo{
+width: 50%;
+height: 10vh;
+}
+
+
+.abcol{
+    display: flex;
+    text-align: center;
+}
+.about-section .about-details h3 .number-years {
+    color: #f69323;
+    font-size: 40px;
+   
+}
+
+.about-section .about-details .quote-block .phone-number {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    background: #f69323;
+    border: 2px solid #f69323;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-right: 20px;
+    padding: 15px 30px;
+}
+.about-section .about-details .quote-block .available-time {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    border: 2px solid #f69323;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+.phone-number a{
+    color: white;
+}
+.available-time a {
+    color:#f69323;
+}
+.heading-numbers1{
+color: #f69323;
+
+}
+
+
+@media(max-width:600px){
+    .w-50 {
+        width: 50%!important;
+    }
+}
+#h2 {
+    font-size: 2.5rem;
+   
+}
+@media(max-width:575px){
+    .img1ind{
+width: 100%;
+    }
+}
+
+@media(max-width:425px){
+    #h2 {
+        font-size: 35px;
+       
+    }
+    #quote-block{
+        text-align: center;
+    }
+    #ttttt{
+        margin-left: 40px;
+    }
+    .about-section .about-details .quote-block .phone-number {
+      
+        font-size: 15px;
+        padding: 5px 15px;
+    }
+    .about-section .about-details .quote-block .available-time {
+        font-size: 15px;
+        padding: 5px 15px;
+        margin-left: -8px;
+    }
+}
+
+@media(max-width:320px){
+    .display-4{
+        font-size: 24px;
+    }
+    .highlight-content{
+text-align: center;
+    }
+
+    .about-section .about-details h3 .number-years {
+        font-size: 20px;
+    }
+
+    .about-details h3{
+        font-size: 20px;
+    }
+    .about-section .about-details .quote-block .phone-number {
+      
+        font-size: 15px;
+        padding: 5px 15px;
+    }
+    .about-section .about-details .quote-block .available-time {
+        font-size: 15px;
+        padding: 5px 15px;
+        margin-left: -8px;
+    }
+
+    .justify-content-end {
+        -ms-flex-pack: end!important;
+        justify-content: flex-end!important;
+        margin-left: -94px;
+    }
+     #h2{
+        font-size: 26px;
+    }
+    #ppp{
+        align-items: center;
+    }
+}
+
+
